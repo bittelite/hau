@@ -62,5 +62,5 @@ a {
 }
 
 #aki9:hover ~ #lines {
-  stroke: red;
+  stroke: transparent;
 }

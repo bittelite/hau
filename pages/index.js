@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import KartHAU from '../components/SVG/KartHAU';
 import KartHAUNoImg from '../components/SVG/KartHAUNoImg';
+import Link from 'next/link';
 
 export const getStaticProps = async () => {
-  const res = await fetch('https://reklameservice.no/wp-json/wp/v2/visningssteder/103723');
+  const res = await fetch('https://reklameservice.no/wp-json/wp/v2/visningssteder/103723?acf_format=standard');
   const mainRes = await res.json();
   const res2 = await fetch(`https://reklameservice.no/wp-json/wp/v2/visningssteder/103723?_embed`);
   const media = await res2.json();
@@ -48,8 +49,9 @@ export default function Home({ mainList, media }) {
           <div className='grid justify-center items-center grid-cols md:grid-cols-3 gap-10 pt-10 uppercase'>
             {mainList.acf.flater.map(post => (
               <div key={post.plassnr} className="text-white backdrop-brightness-50 hover:backdrop-brightness-0 h-96 p-10 bottom-0">
+                <Link href={ '/visningssted/' + post.plassnr } key={post.plassnr}>
                 <div className="">
-                  Bilde
+                <Image src={post.hovedbilde} fill className="object-cover brightness-50 hover:brightness-100"/>
                 </div>
                 <div className="flex absolute bottom-10">
                   <h3 className="flex-auto text-lg">
@@ -59,9 +61,10 @@ export default function Home({ mainList, media }) {
                 <div className="text-lg absolute top-10 right-10">
                 {post.plassnr}
                 </div>
-                <div className="text-lg rounded-full bg-white text-black absolute bottom-10 right-10">
-                  #
+                <div className="">
+                  <Image src={'/gfx/pil.png'} width={15} height={15} className="rounded-full bg-white text-black absolute bottom-10 right-10 w-9 h-9 p-3 hover:w-10 hover:h-10"/>
                 </div>
+                </Link>
               </div>
               ))}
             </div>
