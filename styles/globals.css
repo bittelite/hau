@@ -8,7 +8,7 @@ body {
   font-family: "freight-sans-pro", sans-serif;
 }
 h1 {
-  @apply text-white text-6xl md:text-7xl lg:text-9xl;
+  @apply text-white text-5xl md:text-7xl lg:text-9xl;
   font-family: "freight-sans-pro", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -27,7 +27,7 @@ h2 {
 }
 .ingress {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 28px;
 }
 @media screen and (min-width: 1320px) {
   .ingress {font-size: 43px; line-height: 60px;}

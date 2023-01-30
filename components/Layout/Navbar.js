@@ -17,7 +17,7 @@ export default function Navbar({ }) {
             </Link>
             <div className="grid justify-items-end">
               <Link href="/kontakt">
-              <div className="w-48 rounded-full bg-black text-white hover:bg-white hover:text-black uppercase p-5 text-center lg:text-xl">
+              <div className="w-38 ml-5 sm:w-48 rounded-full bg-black text-white hover:bg-white hover:text-black uppercase p-5 text-center lg:text-xl">
                 Kontakt oss
               </div>
               </Link>

@@ -29,7 +29,7 @@ export default function Home({ mainList, media }) {
           width: 'auto',
           height: '65vh'
         }}>
-        <h1>
+        <h1 className='py-10'>
           Flyplassreklame
         </h1>
       </div>
@@ -51,14 +51,14 @@ export default function Home({ mainList, media }) {
           </h2>
           <div className='grid justify-center items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 p-10 uppercase'>
             {mainList.acf.flater.map(post => (
-              <div key={post.plassnr} className="text-white backdrop-brightness-50 hover:backdrop-brightness-0 h-96 p-10 bottom-0">
+              <div key={post.plassnr} className="text-white backdrop-brightness-50 hover:backdrop-brightness-0 h-72 md:h-96 p-10 bottom-0">
                 <Link href={ '/visningssted/' + post.plassnr } key={post.plassnr}>
                 <div className="">
                 <Image src={post.hovedbilde} fill className="object-cover brightness-50 hover:brightness-100"/>
                 </div>
                 <div className="flex absolute bottom-10">
                   <h3 className="flex-auto text-lg">
-                  {post.type} - {post.plassering}
+                  {post.type}:<br/>{post.plassering}
                   </h3>
                 </div>
                 <div className="text-lg absolute top-10 right-10">

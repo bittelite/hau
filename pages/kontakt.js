@@ -13,7 +13,7 @@ export default function Kontakt({ }) {
           <h2 className='text-center pt-40'>
             Kontakt oss
           </h2>
-          <div className='grid justify-center items-center grid-cols-3 gap-10 pt-10'>
+          <div className='grid justify-center items-center grid-cols-1 lg:grid-cols-3 gap-10 p-10 '>
             <div className="grid gap-10">
                 <h3 className="flex-auto text-xl font-semibold text-slate-900 uppercase">
                   
