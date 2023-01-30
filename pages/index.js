@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import KartHAU from '../components/SVG/KartHAU';
-import KartHAUNoImg from '../components/SVG/KartHAUNoImg';
 import Link from 'next/link';
 
 export const getStaticProps = async () => {
@@ -36,17 +35,21 @@ export default function Home({ mainList, media }) {
       </div>
       <div className='wrapper'>
         <div>
-          <p className='ingress p-10 sm:px-0 sm:py-20 lg:py-40'>{mainList.acf.beskrivelse.ingress}</p>
+          <p className='ingress px-10 xl:px-0 pt-28 sm:py-20 lg:py-40'>
+            {mainList.acf.beskrivelse.ingress}
+          </p>
         </div>
-        <div className='sm:grid justify-center items-center w-full hidden'>
-          <h2 className='text-center pb-10'>Kart</h2>
-          <KartHAUNoImg />
+        <div className='xl:grid justify-center items-center w-full hidden'>
+          <h2 className='text-center pb-10'>
+            Kart
+          </h2>
+          <KartHAU />
         </div>
         <div className='grid'>
           <h2 className='text-center pt-40'>
             Plassoversikt
           </h2>
-          <div className='grid justify-center items-center grid-cols md:grid-cols-3 gap-10 pt-10 uppercase'>
+          <div className='grid justify-center items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 p-10 uppercase'>
             {mainList.acf.flater.map(post => (
               <div key={post.plassnr} className="text-white backdrop-brightness-50 hover:backdrop-brightness-0 h-96 p-10 bottom-0">
                 <Link href={ '/visningssted/' + post.plassnr } key={post.plassnr}>

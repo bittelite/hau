@@ -58,9 +58,9 @@ a {
 }
 
 #aki8:hover ~ #lines {
-  stroke: transparent;
+  @apply hidden;
 }
 
 #aki9:hover ~ #lines {
-  stroke: transparent;
+  @apply hidden;
 }
