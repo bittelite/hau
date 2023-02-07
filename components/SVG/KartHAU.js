@@ -1421,7 +1421,8 @@ const KartHAU = (props) => (
     <g
       data-name="AKi 8"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(216.22 274.82)">
@@ -1446,7 +1447,8 @@ const KartHAU = (props) => (
     <g
       data-name="AKi 9"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(246.06 248.27)">
@@ -1470,7 +1472,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 7"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(376.56 132.98)">
@@ -1497,7 +1500,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 6"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(418.89 175.31)">
@@ -1524,7 +1528,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 17"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(465.54 117.22)">
@@ -1551,7 +1556,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 18"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(708.62 116.24)">
@@ -1578,7 +1584,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 8"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(803.63 132.08)">
@@ -1605,7 +1612,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 9"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(840.54 226.5)">
@@ -1632,7 +1640,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 9"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(940.71 579.39)">
@@ -1659,7 +1668,8 @@ const KartHAU = (props) => (
     <g
       data-name="AKu 2"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(1131.47 253.08)">
@@ -1690,7 +1700,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 12"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(615.68 266.26)">
@@ -1717,7 +1728,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 22"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(654.67 306.04)">
@@ -1744,7 +1756,8 @@ const KartHAU = (props) => (
     <g
       data-name="AKu 1"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(1131.47 214.69)">
@@ -1784,7 +1797,8 @@ const KartHAU = (props) => (
     <g
       data-name="AKi 2"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(200.97 232.69)">
@@ -1819,7 +1833,8 @@ const KartHAU = (props) => (
     <g
       data-name="AKi 1"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(168 204.84)">
@@ -1855,7 +1870,8 @@ const KartHAU = (props) => (
     <g
       data-name="U 2"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(682.99 492.47)">
@@ -1891,7 +1907,8 @@ const KartHAU = (props) => (
     <g
       data-name="U 3"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(644.28 583.34)">
@@ -1932,7 +1949,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 13"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(378.53 261.32)">
@@ -1971,7 +1989,8 @@ const KartHAU = (props) => (
     <g
       data-name="U 6"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(88.16 411.36)">
@@ -2007,7 +2026,8 @@ const KartHAU = (props) => (
     <g
       data-name="AKi 4"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(264.86 304.56)">
@@ -2048,7 +2068,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 21"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(529.05 159.56)">
@@ -2092,7 +2113,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 16"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(798.69 241.73)">
@@ -2136,7 +2158,8 @@ const KartHAU = (props) => (
     <g
       data-name="U 1"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(659.14 380.07)">
@@ -2178,7 +2201,8 @@ const KartHAU = (props) => (
       Id="AKI10"
       data-name="AKi 10"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(161.79 263.69)">
@@ -2219,7 +2243,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 20"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(920.96 241.33)">
@@ -2258,7 +2283,8 @@ const KartHAU = (props) => (
     <g
       data-name="U 4"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(629.9 538.56)">
@@ -2294,7 +2320,8 @@ const KartHAU = (props) => (
     <g
       data-name="U 5"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(696.55 537.66)">
@@ -2328,7 +2355,8 @@ const KartHAU = (props) => (
     <g
       data-name="AG 30"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(573.45 201.89)">
@@ -2366,7 +2394,8 @@ const KartHAU = (props) => (
       id="AK40"
       data-name="AK 40"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(233.16 181.21)">
@@ -2400,7 +2429,8 @@ const KartHAU = (props) => (
     <g
       data-name="AK 40-2"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(688.11 606.5)">
@@ -2434,7 +2464,8 @@ const KartHAU = (props) => (
     <g
       data-name="AK 40"
       fill="#fff"
-      fontFamily="FreightSansProBold-Regular, 'FreightSans Pro'"
+      fontFamily="Freight-Sans-Pro, sans-serif"
+      fontWeight={700}
       fontSize={15.75}
     >
       <text transform="translate(1209.74 265.88)">
