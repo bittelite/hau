@@ -5,13 +5,13 @@ export default function Navbar({ }) {
     return (
       <>
         <div className="bg-white text-black grid grid-flow-col items-center absolute top-0 left-0 w-full p-8">
-            <Link href="/">
+            <Link href="/" className="hidden md:grid">
             <div className="hidden md:grid">
               <Image src="/gfx/hau-logo.png" width={400} height={60} />
             </div>
             </Link>
             <Link href="/">
-            <div className="md:hidden grid">
+            <div className="md:hidden grid justify-start">
               <Image src="/gfx/hau-logo-2.png" width={200} height={60} />
             </div>
             </Link>

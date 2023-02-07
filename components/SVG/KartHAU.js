@@ -1033,7 +1033,8 @@ const KartHAU = (props) => (
               <text
                 transform="translate(540.16 113.44)"
                 fill="#fff"
-                fontFamily="NiveauGroteskMedium, 'Niveau Grotesk'"
+                fontFamily="niveau-grotesk"
+                fontWeight={500}
                 fontSize={13.78}
                 data-name={3}
               >
@@ -1053,7 +1054,8 @@ const KartHAU = (props) => (
               <text
                 transform="translate(917.3 173.31)"
                 fill="#fff"
-                fontFamily="NiveauGroteskMedium, 'Niveau Grotesk'"
+                fontFamily="niveau-grotesk"
+                fontWeight={500}
                 fontSize={13.78}
                 data-name={2}
               >
@@ -1073,7 +1075,8 @@ const KartHAU = (props) => (
               <text
                 transform="translate(1028.39 173.31)"
                 fill="#fff"
-                fontFamily="NiveauGroteskMedium, 'Niveau Grotesk'"
+                fontFamily="niveau-grotesk"
+                fontWeight={500}
                 fontSize={13.78}
                 data-name={1}
               >
@@ -1093,7 +1096,8 @@ const KartHAU = (props) => (
               <text
                 transform="translate(415.12 113.44)"
                 fill="#fff"
-                fontFamily="NiveauGroteskMedium, 'Niveau Grotesk'"
+                fontFamily="niveau-grotesk"
+                fontWeight={500}
                 fontSize={13.78}
                 data-name={4}
               >
@@ -1119,7 +1123,8 @@ const KartHAU = (props) => (
       <text
         transform="translate(17.3 56.97)"
         fill="#fff"
-        fontFamily="NiveauGroteskMedium, 'Niveau Grotesk'"
+        fontFamily="niveau-grotesk"
+        fontWeight={500}
         fontSize={12.7}
       >
         <tspan x={0} y={0}>
@@ -1192,7 +1197,8 @@ const KartHAU = (props) => (
       <text
         transform="translate(925.23 452.96)"
         fill="#fff"
-        fontFamily="NiveauGroteskMedium, 'Niveau Grotesk'"
+        fontFamily="niveau-grotesk"
+        fontWeight={500}
         fontSize={12.7}
       >
         <tspan x={0} y={0}>
@@ -1226,7 +1232,8 @@ const KartHAU = (props) => (
       <path data-name="Line 32" d="M1171.07 504.77h-.37v-77.46h.37v77.46Z" />
       <text
         transform="translate(1104.22 420.57)"
-        fontFamily="NiveauGroteskMedium, 'Niveau Grotesk'"
+        fontFamily="niveau-grotesk"
+        fontWeight={500}
         fontSize={14}
       >
         <tspan x={0} y={0}>
