@@ -1267,7 +1267,7 @@ const KartHAU = (props) => (
     </g>
     <text
       transform="translate(76.08 653.81)"
-      fontFamily="FreightSansProMedium-Regular, 'FreightSans Pro'"
+      fontFamily="'freight-sans-pro', sans-serif"
       fontSize={16.93}
     >
       <tspan x={0} y={0} letterSpacing="-.02em">
@@ -1285,7 +1285,7 @@ const KartHAU = (props) => (
     </text>
     <text
       transform="translate(76.08 602.32)"
-      fontFamily="FreightSansProMedium-Regular, 'FreightSans Pro'"
+      fontFamily="'freight-sans-pro', sans-serif"
       fontSize={16.93}
       data-name="Frittst\xE5ende skjerm"
     >
@@ -1295,7 +1295,7 @@ const KartHAU = (props) => (
     </text>
     <text
       transform="translate(76.08 550.67)"
-      fontFamily="FreightSansProMedium-Regular, 'FreightSans Pro'"
+      fontFamily="'freight-sans-pro', sans-serif"
       fontSize={16.93}
     >
       <tspan x={0} y={0}>
@@ -1310,7 +1310,7 @@ const KartHAU = (props) => (
     </text>
     <text
       transform="translate(298.08 653.81)"
-      fontFamily="FreightSansProMedium-Regular, 'FreightSans Pro'"
+      fontFamily="'freight-sans-pro', sans-serif"
       fontSize={16.93}
       data-name="\xD8vrig"
     >
@@ -1320,7 +1320,7 @@ const KartHAU = (props) => (
     </text>
     <text
       transform="translate(298.08 602.32)"
-      fontFamily="FreightSansProMedium-Regular, 'FreightSans Pro'"
+      fontFamily="'freight-sans-pro', sans-serif"
       fontSize={16.93}
       data-name="\xD8vrig"
     >
@@ -1336,7 +1336,7 @@ const KartHAU = (props) => (
     </text>
     <text
       transform="translate(298.08 550.67)"
-      fontFamily="FreightSansProMedium-Regular, 'FreightSans Pro'"
+      fontFamily="'freight-sans-pro', sans-serif"
       fontSize={16.93}
       data-name="Banner"
     >
