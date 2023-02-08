@@ -44,7 +44,7 @@ function Visningssted({ post, result, media }) {
             </div>
             </Link>
           </div>
-          <div className="text-center">Plass flere bilder og tekst om reklametype</div>
+          <div className="text-center hidden">Plass flere bilder og tekst om reklametype</div>
         </div>
         </div>
       </div>
@@ -60,8 +60,6 @@ export async function getStaticPaths() {
   }))
   return {paths, fallback: false};
 }
-
-
 
 export async function getStaticProps({params}) {
   const res = await fetch(`https://reklameservice.no/wp-json/wp/v2/visningssteder/103723?acf_format=standard`);
