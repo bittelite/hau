@@ -974,7 +974,7 @@ const KartHAU = (props) => (
         fontWeight={500}
         fontSize={14}
       >
-        <tspan x={20} y={0}>
+        <tspan x={20} y={-2}>
           {"Avgang utland"}
         </tspan>
       </text>
@@ -982,1213 +982,1167 @@ const KartHAU = (props) => (
         <path d="m914.87 608.16-6.62-13.89 6.62-13.88 6.62 13.88-6.62 13.89zM914.87 580.32l-6.62-13.88 6.62-13.89 6.62 13.89-6.62 13.88zM914.87 552.49l-6.62-13.89 6.62-13.88 6.62 13.88-6.62 13.89zM914.87 691.67l-6.62-13.89 6.62-13.89 6.62 13.89-6.62 13.89zM914.87 663.83l-6.62-13.89 6.62-13.88 6.62 13.88-6.62 13.89zM914.87 635.99l-6.62-13.88 6.62-13.89 6.62 13.89-6.62 13.88zM914.87 524.65l-6.62-13.88 6.62-13.89 6.62 13.89-6.62 13.88z" />
       </g>
     </g>
-    <text
-      transform="translate(76.08 653.81)"
-      fontFamily="'freight-sans-pro', sans-serif"
-      fontSize={16.93}
-    >
-      <tspan x={0} y={0} letterSpacing="-.02em">
-        {"L"}
-      </tspan>
-      <tspan x={8.02} y={0}>
-        {"y"}
-      </tspan>
-      <tspan x={15.49} y={0} letterSpacing="0em">
-        {"s"}
-      </tspan>
-      <tspan x={22.36} y={0}>
-        {"skilt"}
-      </tspan>
-    </text>
-    <text
-      transform="translate(76.08 602.32)"
-      fontFamily="'freight-sans-pro', sans-serif"
-      fontSize={16.93}
-      data-name="Frittst\xE5ende skjerm"
-    >
-      <tspan x={0} y={0}>
-        {"Frittst\xE5ende skjerm"}
-      </tspan>
-    </text>
-    <text
-      transform="translate(76.08 550.67)"
-      fontFamily="'freight-sans-pro', sans-serif"
-      fontSize={16.93}
-    >
-      <tspan x={0} y={0}>
-        {"Skjermnettverk"}
-      </tspan>
-    </text>
-    <text
-      transform="translate(298.08 653.81)"
-      fontFamily="'freight-sans-pro', sans-serif"
-      fontSize={16.93}
-      data-name="\xD8vrig"
-    >
-      <tspan x={0} y={0}>
-        {"\xD8vrig"}
-      </tspan>
-    </text>
-    <text
-      transform="translate(298.08 602.32)"
-      fontFamily="'freight-sans-pro', sans-serif"
-      fontSize={16.93}
-      data-name="\xD8vrig"
-    >
-      <tspan x={0} y={0}>
-        {"Plakatramme"}
-      </tspan>
-    </text>
-    <text
-      transform="translate(298.08 550.67)"
-      fontFamily="'freight-sans-pro', sans-serif"
-      fontSize={16.93}
-      data-name="Banner"
-    >
-      <tspan x={0} y={0}>
-        {"Banner"}
-      </tspan>
-    </text>
-    <rect
-      x={35.08}
-      y={531.13}
-      width={30}
-      height={30}
-      rx={15}
-      ry={15}
-      fill="#002649"
-    />
-    <rect
-      x={35.08}
-      y={581.09}
-      width={30}
-      height={30}
-      rx={15}
-      ry={15}
-      fill="#4a769e"
-    />
-    <rect
-      x={35.08}
-      y={631.05}
-      width={30}
-      height={30}
-      rx={15}
-      ry={15}
-      fill="#cb9228"
-    />
-    <rect
-      x={256.14}
-      y={531.13}
-      width={30}
-      height={30}
-      rx={15}
-      ry={15}
-      fill="#a36a78"
-    />
-    <rect
-      x={256.14}
-      y={581.09}
-      width={30}
-      height={30}
-      rx={15}
-      ry={15}
-      fill="#009691"
-    />
-    <rect
-      x={256.14}
-      y={631.05}
-      width={30}
-      height={30}
-      rx={15}
-      ry={15}
-      fill="#c76433"
-    />
-    <g id="lines" fill="none" stroke="#002649" strokeWidth={2}>
-      <path data-name="Line 36" d="m271.16 235.54 107.4-96.77" />
-      <path data-name="Line 37" d="m418.92 164.33-22.71-26.01" />
-      <path data-name="Line 38" d="m437.37 162.44 28.28-39.36" />
-      <path data-name="Line 40" d="m730.21 121.57 68.71 10.3" />
-      <path data-name="Line 42" d="m727.98 131.44 111.28 88.14" />
-      <path data-name="Line 41" d="m636.95 255.12 72.97-123.13" />
-      <path data-name="Line 44" d="m1128.19 252.02-265.8-24.61" />
-      <path data-name="Line 39" d="m438.21 180.62 175.92 81.42" />
-      <path data-name="Line 46" d="m635.69 275.72 18.39 20.44" />
-    </g>
-    <a xlinkHref="/visningssted/AG-AKi-AKu">
-    <g id="aki8">
-      <circle
-        data-name="Ellipse 28"
-        cx={228.78}
-        cy={276.73}
-        r={21}
+{/* TEGNFORKLARING */}
+    <g className="font-medium">
+      <text
+        transform="translate(76.08 653.81)"
+        fontFamily="'freight-sans-pro', sans-serif"
+        fontSize={16.93}
+      >
+        <tspan x={0} y={0}>
+          {"Lysskilt"}
+        </tspan>
+      </text>
+      <text
+        transform="translate(76.08 602.32)"
+        fontFamily="'freight-sans-pro', sans-serif"
+        fontSize={16.93}
+      >
+        <tspan x={0} y={0}>
+          {"Frittst\xE5ende skjerm"}
+        </tspan>
+      </text>
+      <text
+        transform="translate(76.08 550.67)"
+        fontFamily="'freight-sans-pro', sans-serif"
+        fontSize={16.93}
+      >
+        <tspan x={0} y={0}>
+          {"Skjermnettverk"}
+        </tspan>
+      </text>
+      <text
+        transform="translate(298.08 653.81)"
+        fontFamily="'freight-sans-pro', sans-serif"
+        fontSize={16.93}
+      >
+        <tspan x={0} y={0}>
+          {"\xD8vrig"}
+        </tspan>
+      </text>
+      <text
+        transform="translate(298.08 602.32)"
+        fontFamily="'freight-sans-pro', sans-serif"
+        fontSize={16.93}
+      >
+        <tspan x={0} y={0}>
+          {"Plakatramme"}
+        </tspan>
+      </text>
+      <text
+        transform="translate(298.08 550.67)"
+        fontFamily="'freight-sans-pro', sans-serif"
+        fontSize={16.93}
+      >
+        <tspan x={0} y={0}>
+          {"Banner"}
+        </tspan>
+      </text>
+      <rect
+        x={35.08}
+        y={531.13}
+        width={30}
+        height={30}
+        rx={15}
+        ry={15}
         fill="#002649"
       />
-      <g
-        data-name="AKi 8"
-        fill="#fff"
-        fontFamily="Freight-Sans-Pro, sans-serif"
-        fontWeight={700}
-        fontSize={15.75}
-      >
-        <text transform="translate(216.22 274.82)">
-          <tspan x={0} y={0}>
-            {"AKi"}
-          </tspan>
-        </text>
-        <text transform="translate(224.01 290.57)">
-          <tspan x={0} y={0}>
-            {"8"}
-          </tspan>
-        </text>
+      <rect
+        x={35.08}
+        y={581.09}
+        width={30}
+        height={30}
+        rx={15}
+        ry={15}
+        fill="#4a769e"
+      />
+      <rect
+        x={35.08}
+        y={631.05}
+        width={30}
+        height={30}
+        rx={15}
+        ry={15}
+        fill="#cb9228"
+      />
+      <rect
+        x={256.14}
+        y={531.13}
+        width={30}
+        height={30}
+        rx={15}
+        ry={15}
+        fill="#a36a78"
+      />
+      <rect
+        x={256.14}
+        y={581.09}
+        width={30}
+        height={30}
+        rx={15}
+        ry={15}
+        fill="#009691"
+      />
+      <rect
+        x={256.14}
+        y={631.05}
+        width={30}
+        height={30}
+        rx={15}
+        ry={15}
+        fill="#c76433"
+      />
+    </g>
+{/* SKJERMNETTVERK */}
+    <g className="kartPunkt">
+      <g id="lines" fill="none" stroke="#002649" strokeWidth={2} className="kartPunktHover">
+        <path data-name="Line 36" d="m271.16 235.54 107.4-96.77" />
+        <path data-name="Line 37" d="m418.92 164.33-22.71-26.01" />
+        <path data-name="Line 38" d="m437.37 162.44 28.28-39.36" />
+        <path data-name="Line 40" d="m730.21 121.57 68.71 10.3" />
+        <path data-name="Line 42" d="m727.98 131.44 111.28 88.14" />
+        <path data-name="Line 41" d="m636.95 255.12 72.97-123.13" />
+        <path data-name="Line 44" d="m1128.19 252.02-265.8-24.61" />
+        <path data-name="Line 39" d="m438.21 180.62 175.92 81.42" />
+        <path data-name="Line 46" d="m635.69 275.72 18.39 20.44" />
       </g>
+      <a xlinkHref="/visningssted/AG-AKi-AKu">
+        <g id="aki8">
+          <circle
+            cx={228.78}
+            cy={276.73}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AKi 8"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(216.22 274.82)">
+              <tspan x={0} y={0}>
+                {"AKi"}
+              </tspan>
+            </text>
+            <text transform="translate(224.01 290.57)">
+              <tspan x={0} y={0}>
+                {"8"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="aki9">
+          <circle
+            data-name="WTH"
+            cx={258.22}
+            cy={249.18}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AKi 9"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(246.06 248.27)">
+              <tspan x={0} y={0}>
+                {"AKi"}
+              </tspan>
+            </text>
+            <text transform="translate(253.85 264.02)">
+              <tspan x={0} y={-2}>
+                {"9"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="ag7">
+          <circle
+            cx={387}
+            cy={134.79}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AG 7"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(376.56 132.98)">
+              <tspan x={0} y={0} letterSpacing="-.02em">
+                {"AG"}
+              </tspan>
+            </text>
+            <text transform="translate(382.53 148.73)">
+              <tspan x={0} y={-3}>
+                {"7"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="ag6">
+          <circle
+            cx={429.43}
+            cy={177.12}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AG 6"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(418.89 175.31)">
+              <tspan x={0} y={0} letterSpacing="-.02em">
+                {"AG"}
+              </tspan>
+            </text>
+            <text transform="translate(424.86 191.06)">
+              <tspan x={0} y={0}>
+                {"6"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="ag17">
+          <circle
+            cx={476.08}
+            cy={119.93}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AG 17"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(465.54 117.22)">
+              <tspan x={0} y={1} letterSpacing="-.02em">
+                {"AG"}
+              </tspan>
+            </text>
+            <text transform="translate(468.04 132.98)">
+              <tspan x={0} y={-2}>
+                {"17"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="ag18">
+          <circle
+            cx={718.86}
+            cy={119.43}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AG 18"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(708.62 116.24)">
+              <tspan x={-0.5} y={1} letterSpacing="-.02em">
+                {"AG"}
+              </tspan>
+            </text>
+            <text transform="translate(710.22 131.99)">
+              <tspan x={1} y={0}>
+                {"18"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="ag8">
+          <circle
+            cx={813.17}
+            cy={133.89}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AG 8"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(803.63 132.08)">
+              <tspan x={-1} y={0} letterSpacing="-.02em">
+                {"AG"}
+              </tspan>
+            </text>
+            <text transform="translate(809.89 147.83)">
+              <tspan x={-0.75} y={0}>
+                {"8"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="ag9">
+          <circle
+            cx={850.58}
+            cy={228.31}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AG 9"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(840.54 226.5)">
+              <tspan x={0} y={0} letterSpacing="-.02em">
+                {"AG"}
+              </tspan>
+            </text>
+            <text transform="translate(847.21 242.25)">
+              <tspan x={0} y={-2}>
+                {"9"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="agu1">
+          <circle
+            cx={951.05}
+            cy={581.2}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AGu 1"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(940.71 579.39)">
+              <tspan x={-5} y={2} letterSpacing="0em">
+                {"AGu"}
+              </tspan>
+            </text>
+            <text transform="translate(946.68 595.14)">
+              <tspan x={0} y={0}>
+                {"1"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="aku2">
+          <circle
+            cx={1145.91}
+            cy={254.39}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AKu 2"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(1131.47 253.08)">
+              <tspan x={0} y={1}>
+                {"AKu"}
+              </tspan>
+            </text>
+            <text transform="translate(1141.54 268.83)">
+              <tspan x={0} y={-2}>
+                {"2"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="ag12">
+          <circle
+            cx={626.12}
+            cy={268.76}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AG 12"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(615.68 266.26)">
+              <tspan x={0} y={1} letterSpacing="-.02em">
+                {"AG"}
+              </tspan>
+            </text>
+            <text transform="translate(617.28 282.01)">
+              <tspan x={1} y={-2}>
+                {"12"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="ag22">
+          <circle
+            cx={665.11}
+            cy={308.33}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AG 22"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(654.67 306.04)">
+              <tspan x={0} y={1} letterSpacing="-.02em">
+                {"AG"}
+              </tspan>
+            </text>
+            <text transform="translate(656.97 321.49)">
+              <tspan x={0} y={-2}>
+                {"22"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="aku1">
+          <circle
+            cx={1145.91}
+            cy={215.6}
+            r={21}
+            fill="#002649"
+          />
+          <g
+            data-name="AKu 1"
+            fill="#fff"
+            fontFamily="Freight-Sans-Pro, sans-serif"
+            fontWeight={700}
+            fontSize={15.75}
+          >
+            <text transform="translate(1131.47 214.69)">
+              <tspan x={0} y={1}>
+                {"AKu"}
+              </tspan>
+            </text>
+            <text transform="translate(1141.54 230.44)">
+              <tspan x={1} y={-2}>
+                {"1"}
+              </tspan>
+            </text>
+          </g>
+        </g>
+      </a>
     </g>
-    <circle
-      data-name="Ellipse 28-2"
-      cx={258.22}
-      cy={249.18}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AKi 9"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(246.06 248.27)">
-        <tspan x={0} y={0}>
-          {"AKi"}
-        </tspan>
-      </text>
-      <text transform="translate(253.85 264.02)">
-        <tspan x={0} y={0}>
-          {"9"}
-        </tspan>
-      </text>
-    </g>
-    <circle
-      data-name="Ellipse 28-3"
-      cx={387}
-      cy={134.79}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AG 7"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(376.56 132.98)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0} letterSpacing="0em">
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(382.53 148.73)">
-        <tspan x={0} y={0}>
-          {"7"}
-        </tspan>
-      </text>
-    </g>
-    <circle
-      data-name="Ellipse 28-4"
-      cx={429.43}
-      cy={177.12}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AG 6"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(418.89 175.31)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0} letterSpacing="0em">
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(424.86 191.06)">
-        <tspan x={0} y={0}>
-          {"6"}
-        </tspan>
-      </text>
-    </g>
-    <circle
-      data-name="Ellipse 28-5"
-      cx={476.08}
-      cy={119.93}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AG 17"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(465.54 117.22)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0} letterSpacing="0em">
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(468.04 132.98)">
-        <tspan x={0} y={0}>
-          {"17"}
-        </tspan>
-      </text>
-    </g>
-    <circle
-      data-name="Ellipse 28-6"
-      cx={718.86}
-      cy={119.43}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AG 18"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(708.62 116.24)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0}>
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(710.22 131.99)">
-        <tspan x={0} y={0}>
-          {"18"}
-        </tspan>
-      </text>
-    </g>
-    <circle
-      data-name="Ellipse 28-7"
-      cx={813.17}
-      cy={133.89}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AG 8"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(803.63 132.08)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0}>
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(809.89 147.83)">
-        <tspan x={0} y={0}>
-          {"8"}
-        </tspan>
-      </text>
-    </g>
-    <circle
-      data-name="Ellipse 28-8"
-      cx={850.58}
-      cy={228.31}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AG 9"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(840.54 226.5)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0}>
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(847.21 242.25)">
-        <tspan x={0} y={0}>
-          {"9"}
-        </tspan>
-      </text>
-    </g>
-    <circle
-      data-name="Ellipse 28-8"
-      cx={951.05}
-      cy={581.2}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AG 9"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(940.71 579.39)">
-        <tspan x={-5} y={2} letterSpacing="0em">
-          {"AGu"}
-        </tspan>
-      </text>
-      <text transform="translate(946.68 595.14)">
-        <tspan x={0} y={0}>
-          {"1"}
-        </tspan>
-      </text>
-    </g>
-    <circle
-      data-name="Ellipse 28-10"
-      cx={1145.91}
-      cy={254.39}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AKu 2"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(1131.47 253.08)">
-        <tspan x={0} y={0}>
-          {"A"}
-        </tspan>
-        <tspan x={10.13} y={0} letterSpacing="-.01em">
-          {"K"}
-        </tspan>
-        <tspan x={19.77} y={0} letterSpacing="0em">
-          {"u"}
-        </tspan>
-      </text>
-      <text transform="translate(1141.54 268.83)">
-        <tspan x={0} y={0}>
-          {"2"}
-        </tspan>
-      </text>
-    </g>
+{/* VISNINGSSTEDER */}
+    <a xlinkHref="/visningssted/AK40">
+      <g className="kartPunkt">
+        <g clipPath="url(#t)" className="kartPunktHover">
+          <circle
+            cx={242.97}
+            cy={134.51}
+            r={70}
+            fill="#c76433"
+          />
+          <use transform="matrix(.49 0 0 .49 169.49 64.51)" xlinkHref="#u" />
+        </g>
+        <path
+          data-name="Path 308-2"
+          d="M242.97 162.51c11.6 0 21 9.4 21 21s-9.4 21-21 21-21-9.4-21-21 9.4-21 21-21Z"
+          fill="#c76433"
+        />
+        <g
+          id="AK40"
+          data-name="AK 40"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(233.16 181.21)">
+            <tspan x={-1} y={0}>
+              {"AK"}
+            </tspan>
+          </text>
+          <text transform="translate(235.32 196.27)">
+            <tspan x={-1} y={-2}>
+              {"40"}
+            </tspan>
+          </text>
+        </g>
+      </g>
     </a>
-    <a xlinkHref="/visningssted/AG-AKi-AKu">
-    <circle
-      data-name="Ellipse 28-11"
-      cx={626.12}
-      cy={268.76}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AG 12"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(615.68 266.26)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0} letterSpacing="0em">
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(617.28 282.01)">
-        <tspan x={0} y={0}>
-          {"12"}
-        </tspan>
-      </text>
-    </g>
-    </a>
-    <a xlinkHref="/visningssted/AG-AKi-AKu">
-    <circle
-      data-name="Ellipse 28-12"
-      cx={665.11}
-      cy={308.33}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AG 22"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(654.67 306.04)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0}>
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(656.97 321.49)">
-        <tspan x={0} y={0}>
-          {"22"}
-        </tspan>
-      </text>
-    </g>
-    </a>
-    <circle
-      data-name="Ellipse 28-9"
-      cx={1145.91}
-      cy={215.6}
-      r={21}
-      fill="#002649"
-    />
-    <a xlinkHref="/visningssted/AKu1">
-    <g
-      data-name="AKu 1"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(1131.47 214.69)">
-        <tspan x={0} y={0}>
-          {"A"}
-        </tspan>
-        <tspan x={10.13} y={0} letterSpacing="-.01em">
-          {"K"}
-        </tspan>
-        <tspan x={19.77} y={0} letterSpacing="0em">
-          {"u"}
-        </tspan>
-      </text>
-      <text transform="translate(1141.54 230.44)">
-        <tspan x={0} y={0}>
-          {"1"}
-        </tspan>
-      </text>
-    </g>
-    </a>
-    <g clipPath="url(#c)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={213.43}
-        cy={185.1}
-        r={70}
-        fill="#cb9228"
-      />
-      <use transform="matrix(.49 0 0 .49 727.88 509.38)" xlinkHref="#d" />
-    </g>
-    <a xlinkHref="/visningssted/AKi2">
-    <circle
-      data-name="Ellipse 28-18"
-      cx={213.43}
-      cy={234.1}
-      r={21}
-      fill="#cb9228"
-    />
-    <g
-      data-name="AKi 2"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(200.97 232.69)">
-        <tspan x={0} y={0}>
-          {"AKi"}
-        </tspan>
-      </text>
-      <text transform="translate(208.76 248.44)">
-        <tspan x={0} y={0}>
-          {"2"}
-        </tspan>
-      </text>
-    </g>
-    </a>
-    <g clipPath="url(#e)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={180.36}
-        cy={157.05}
-        r={70}
-        fill="#cb9228"
-      />
-      <use transform="matrix(.49 0 0 .49 727.88 509.38)" xlinkHref="#d" />
-    </g>
     <a xlinkHref="/visningssted/AKi1">
-    <circle
-      data-name="Ellipse 28-13"
-      cx={180.36}
-      cy={206.05}
-      r={21}
-      fill="#cb9228"
-    />
-    <g
-      data-name="AKi 1"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(168 204.84)">
-        <tspan x={0} y={0}>
-          {"AKi"}
-        </tspan>
-      </text>
-      <text transform="translate(175.79 220.59)">
-        <tspan x={0} y={0}>
-          {"1"}
-        </tspan>
-      </text>
-    </g>
+      <g className="kartPunkt">
+        <g clipPath="url(#e)" className="kartPunktHover">
+          <circle
+            cx={180.36}
+            cy={157.05}
+            r={70}
+            fill="#cb9228"
+          />
+          <use transform="matrix(.49 0 0 .49 105 87.5)" xlinkHref="#d" />
+        </g>
+        <circle
+          cx={180.36}
+          cy={206.05}
+          r={21}
+          fill="#cb9228"
+        />
+        <g
+          data-name="AKi 1"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(168 204.84)">
+            <tspan x={0} y={1}>
+              {"AKi"}
+            </tspan>
+          </text>
+          <text transform="translate(175.79 220.59)">
+            <tspan x={0} y={-1}>
+              {"1"}
+            </tspan>
+          </text>
+        </g>
+      </g>
     </a>
-    <g clipPath="url(#f)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={688.04}
-        cy={445.85}
-        r={70}
-        fill="#cb9228"
-      />
-      <use transform="matrix(.49 0 0 .49 614.57 375.85)" xlinkHref="#g" />
-    </g>
-    <a xlinkHref="/visningssted/U2">
-    <circle
-      data-name="Ellipse 28-21"
-      cx={688.04}
-      cy={495.18}
-      r={20.67}
-      fill="#cb9228"
-    />
-    <g
-      data-name="U 2"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(682.99 492.47)">
-        <tspan x={0} y={0}>
-          {"U"}
-        </tspan>
-      </text>
-      <text transform="translate(684.35 507.72)">
-        <tspan x={0} y={0}>
-          {"2"}
-        </tspan>
-      </text>
-    </g>
-    </a>
-    <g clipPath="url(#h)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={649.65}
-        cy={536.42}
-        r={70}
-        fill="#cb9228"
-      />
-      <use transform="matrix(.49 0 0 .49 576.17 466.42)" xlinkHref="#g" />
-    </g>
-    <a xlinkHref="/visningssted/U3">
-    <circle
-      data-name="Ellipse 28-22"
-      cx={649.65}
-      cy={585.75}
-      r={20.67}
-      fill="#cb9228"
-    />
-    <g
-      data-name="U 3"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(644.28 583.34)">
-        <tspan x={0} y={0}>
-          {"U"}
-        </tspan>
-      </text>
-      <text transform="translate(645.88 596.09)">
-        <tspan x={0} y={0}>
-          {"3"}
-        </tspan>
-      </text>
-    </g>
-    </a>
-    <g clipPath="url(#i)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={388.87}
-        cy={214.83}
-        r={70}
-        fill="#a36a78"
-      />
-      <image
-        width={300}
-        height={153}
-        transform="matrix(.64 0 0 .64 292.82 144.83)"
-        xlinkHref="/img/AG13.jpg"
-      />
-    </g>
-    <a xlinkHref="/visningssted/AG13">
-    <circle
-      data-name="Ellipse 28-14"
-      cx={388.87}
-      cy={263.83}
-      r={21}
-      fill="#a36a78"
-    />
-    <g
-      data-name="AG 13"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(378.53 261.32)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0} letterSpacing="0em">
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(380.12 277.08)">
-        <tspan x={0} y={0}>
-          {"13"}
-        </tspan>
-      </text>
-    </g>
-    </a>
-    <a xlinkHref="/visningssted/U6">
-    <g clipPath="url(#j)" id="H-U6" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={93.53}
-        cy={364.47}
-        r={70}
-        fill="#a36a78"
-      />
-      <use transform="matrix(.49 0 0 .49 727.88 509.38)" xlinkHref="#d" />
-    </g>
-    <circle
-      data-name="Ellipse 28-19"
-      cx={93.53}
-      cy={413.47}
-      r={21}
-      fill="#a36a78"
-    />
-    <g
-      data-name="U 6"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(88.16 411.36)">
-        <tspan x={0} y={0}>
-          {"U"}
-        </tspan>
-      </text>
-      <text transform="translate(89.26 426.01)">
-        <tspan x={0} y={0}>
-          {"6"}
-        </tspan>
-      </text>
-    </g>
-    </a>
-    <g clipPath="url(#k)" id="AKI4" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={277.52}
-        cy={256.97}
-        r={70}
-        fill="#a36a78"
-      />
-      <use transform="matrix(.49 0 0 .49 727.88 509.38)" xlinkHref="#d" />
-    </g>
-    <circle
-      data-name="Ellipse 28-26"
-      cx={277.52}
-      cy={305.97}
-      r={21}
-      fill="#a36a78"
-    />
-    <a xlinkHref="/visningssted/AKi4">
-    <g
-      data-name="AKi 4"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(264.86 304.56)">
-        <tspan x={0} y={0}>
-          {"AKi"}
-        </tspan>
-      </text>
-      <text transform="translate(272.65 320.31)">
-        <tspan x={0} y={0}>
-          {"4"}
-        </tspan>
-      </text>
-    </g>
-    </a>
-    <g clipPath="url(#l)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={538.99}
-        cy={112.97}
-        r={70}
-        fill="#4a769e"
-      />
-      <image
-        width={300}
-        height={200}
-        transform="matrix(.49 0 0 .49 462.03 42.97)"
-        xlinkHref="/img/AG21.jpg"
-      />
-    </g>
-    <a xlinkHref="/visningssted/AG21">
-    <circle
-      data-name="Ellipse 28-15"
-      cx={538.99}
-      cy={161.97}
-      r={21}
-      fill="#4a769e"
-    />
-    <g
-      data-name="AG 21"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(529.05 159.56)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0} letterSpacing="0em">
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(530.75 175.31)">
-        <tspan x={0} y={0}>
-          {"21"}
-        </tspan>
-      </text>
-    </g>
-    </a>
-    <g clipPath="url(#m)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={809.23}
-        cy={195.15}
-        r={70}
-        fill="#4a769e"
-      />
-      <image
-        width={300}
-        height={200}
-        transform="matrix(.49 0 0 .49 735.75 125.15)"
-        xlinkHref="/img/AG16.jpg"
-      />
-    </g>
-    <a xlinkHref="/visningssted/AG16">
-    <circle
-      data-name="Ellipse 28-17"
-      cx={809.23}
-      cy={244.15}
-      r={21}
-      fill="#4a769e"
-    />
-    <g
-      data-name="AG 16"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(798.69 241.73)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0}>
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(800.29 257.49)">
-        <tspan x={0} y={0}>
-          {"16"}
-        </tspan>
-      </text>
-    </g>
-    </a>
-    <g clipPath="url(#n)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={664.51}
-        cy={331.98}
-        r={70}
-        fill="#4a769e"
-      />
-      <image
-        width={300}
-        height={200}
-        transform="matrix(.49 0 0 .49 591.04 261.98)"
-        xlinkHref="/img/U1.jpg"
-      />
-    </g>
-    <a xlinkHref="/visningssted/U1">
-    <circle
-      data-name="Ellipse 28-20"
-      cx={664.51}
-      cy={380.98}
-      r={21}
-      fill="#4a769e"
-    />
-    <g
-      data-name="U 1"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(659.14 380.07)">
-        <tspan x={0} y={0}>
-          {"U"}
-        </tspan>
-      </text>
-      <text transform="translate(660.54 394.63)">
-        <tspan x={0} y={0}>
-          {"1"}
-        </tspan>
-      </text>
-    </g>
+    <a xlinkHref="/visningssted/AKi2">
+      <g className="kartPunkt">
+        <g clipPath="url(#c)" className="kartPunktHover">
+          <circle
+            cx={213.43}
+            cy={185.1}
+            r={70}
+            fill="#cb9228"
+          />
+          <use transform="matrix(.49 0 0 .49 140 115)" xlinkHref="#d" />
+        </g>
+        <g
+          data-name="AKi 2"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <circle
+          cx={213.43}
+          cy={234.1}
+          r={21}
+          fill="#cb9228"
+          />
+          <text transform="translate(200.97 232.69)">
+            <tspan x={0} y={1}>
+              {"AKi"}
+            </tspan>
+          </text>
+          <text transform="translate(208.76 248.44)">
+            <tspan x={0} y={0}>
+              {"2"}
+            </tspan>
+          </text>
+        </g>
+      </g>
     </a>
     <a xlinkHref="/visningssted/AKi10">
-    <g clipPath="url(#o)" id="H-AKI10" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={174.25}
-        cy={216.48}
-        r={70}
-        fill="#4a769e"
-      />
-      <image
-        width={300}
-        height={225}
-        transform="matrix(.47 0 0 .47 103.61 142.48)"
-        xlinkHref="/img/AKI10.jpg"
-      />
-    </g>
-    <circle
-      data-name="Ellipse 28-25"
-      cx={174.25}
-      cy={265.8}
-      r={20.67}
-      fill="#4a769e"
-    />
-    <g
-      Id="AKI10"
-      data-name="AKi 10"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(161.79 263.69)">
-        <tspan x={0} y={0}>
-          {"AKi"}
-        </tspan>
-      </text>
-      <text transform="translate(165.21 279.44)">
-        <tspan x={0} y={0}>
-          {"10"}
-        </tspan>
-      </text>
-    </g>
+      <g className="kartPunkt">
+        <g clipPath="url(#o)" className="kartPunktHover">
+          <circle
+            cx={174.25}
+            cy={216.48}
+            r={70}
+            fill="#4a769e"
+          />
+          <image
+            width={300}
+            height={225}
+            transform="matrix(.47 0 0 .47 103.61 139.48)"
+            xlinkHref="/img/AKI10.jpg"
+          />
+        </g>
+        <circle
+          cx={174.25}
+          cy={265.8}
+          r={20.67}
+          fill="#4a769e"
+        />
+        <g
+          data-name="AKi 10"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(161.79 263.69)">
+            <tspan x={0} y={2}>
+              {"AKi"}
+            </tspan>
+          </text>
+          <text transform="translate(165.21 279.44)">
+            <tspan x={0} y={-1}>
+              {"10"}
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </a>
+    <a xlinkHref="/visningssted/AG13">
+      <g className="kartPunkt">
+        <g clipPath="url(#i)" className="kartPunktHover">
+          <circle
+            cx={388.87}
+            cy={214.83}
+            r={70}
+            fill="#a36a78"
+          />
+          <image
+            width={300}
+            height={153}
+            transform="matrix(.64 0 0 .64 292.82 144.83)"
+            xlinkHref="/img/AG13.jpg"
+          />
+        </g>
+        <circle
+          cx={388.87}
+          cy={263.83}
+          r={21}
+          fill="#a36a78"
+        />
+        <g
+          data-name="AG 13"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(378.53 261.32)">
+            <tspan x={0} y={1} letterSpacing="-.02em">
+              {"AG"}
+            </tspan>
+          </text>
+          <text transform="translate(380.12 277.08)">
+            <tspan x={1} y={-2}>
+              {"13"}
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </a>
+    <a xlinkHref="/visningssted/U6">
+      <g className="kartPunkt">
+        <g clipPath="url(#j)" className="kartPunktHover">
+          <circle
+            cx={93.53}
+            cy={364.47}
+            r={70}
+            fill="#a36a78"
+          />
+          <use transform="matrix(.49 0 0 .49 20.88 294)" xlinkHref="#d" />
+        </g>
+        <circle
+          cx={93.53}
+          cy={413.47}
+          r={21}
+          fill="#a36a78"
+        />
+        <g
+          data-name="U 6"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(88.16 411.36)">
+            <tspan x={0} y={0}>
+              {"U"}
+            </tspan>
+          </text>
+          <text transform="translate(89.26 426.01)">
+            <tspan x={0} y={0}>
+              {"6"}
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </a>
+    <a xlinkHref="/visningssted/AKi4">
+      <g className="kartPunkt">
+        <g clipPath="url(#k)" className="kartPunktHover">
+          <circle
+            cx={277.52}
+            cy={256.97}
+            r={70}
+            fill="#a36a78"
+          />
+          <use transform="matrix(.49 0 0 .49 200 187)" xlinkHref="#d" />
+        </g>
+        <circle
+          cx={277.52}
+          cy={305.97}
+          r={21}
+          fill="#a36a78"
+        />
+        <g
+          data-name="AKi 4"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(264.86 304.56)">
+            <tspan x={0} y={1}>
+              {"AKi"}
+            </tspan>
+          </text>
+          <text transform="translate(272.65 320.31)">
+            <tspan x={0} y={-2}>
+              {"4"}
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </a>
+    <a xlinkHref="/visningssted/AG21">
+      <g className="kartPunkt">
+        <g clipPath="url(#l)" className="kartPunktHover">
+          <circle
+            cx={538.99}
+            cy={112.97}
+            r={70}
+            fill="#4a769e"
+          />
+          <image
+            width={300}
+            height={200}
+            transform="matrix(.49 0 0 .49 462.03 42.97)"
+            xlinkHref="/img/AG21.jpg"
+          />
+        </g>
+        <circle
+          cx={538.99}
+          cy={161.97}
+          r={21}
+          fill="#4a769e"
+        />
+        <g
+          data-name="AG 21"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(529.05 159.56)">
+            <tspan x={-1} y={1} letterSpacing="-.02em">
+              {"AG"}
+            </tspan>
+          </text>
+          <text transform="translate(530.75 175.31)">
+            <tspan x={0} y={-2}>
+              {"21"}
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </a>
+    <a xlinkHref="/visningssted/AG16">
+      <g className="kartPunkt">
+        <g clipPath="url(#m)" className="kartPunktHover">
+          <circle
+            cx={809.23}
+            cy={195.15}
+            r={70}
+            fill="#4a769e"
+          />
+          <image
+            width={300}
+            height={200}
+            transform="matrix(.49 0 0 .49 735.75 125.15)"
+            xlinkHref="/img/AG16.jpg"
+          />
+        </g>
+        <circle
+          cx={809.23}
+          cy={244.15}
+          r={21}
+          fill="#4a769e"
+        />
+        <g
+          data-name="AG 16"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(798.69 241.73)">
+            <tspan x={0} y={0} letterSpacing="-.02em">
+              {"AG"}
+            </tspan>
+          </text>
+          <text transform="translate(800.29 257.49)">
+            <tspan x={1} y={0}>
+              {"16"}
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </a>
+    <a xlinkHref="/visningssted/U1">
+      <g className="kartPunkt">
+        <g clipPath="url(#n)" className="kartPunktHover">
+          <circle
+            cx={664.51}
+            cy={331.98}
+            r={70}
+            fill="#4a769e"
+          />
+          <image
+            width={300}
+            height={200}
+            transform="matrix(.49 0 0 .49 591.04 261.98)"
+            xlinkHref="/img/U1.jpg"
+          />
+        </g>
+        <circle
+          cx={664.51}
+          cy={380.98}
+          r={21}
+          fill="#4a769e"
+        />
+        <g
+          data-name="U 1"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(659.14 380.07)">
+            <tspan x={-1} y={0}>
+              {"U"}
+            </tspan>
+          </text>
+          <text transform="translate(660.54 394.63)">
+            <tspan x={0.5} y={-1}>
+              {"1"}
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </a>
+    <a xlinkHref="/visningssted/U2">
+      <g className="kartPunkt">
+        <g clipPath="url(#f)" className="kartPunktHover">
+          <circle
+            cx={688.04}
+            cy={445.85}
+            r={70}
+            fill="#cb9228"
+          />
+          <use transform="matrix(.49 0 0 .49 614.57 375.85)" xlinkHref="#g" />
+        </g>
+        <circle
+          cx={688.04}
+          cy={495.18}
+          r={20.67}
+          fill="#cb9228"
+        />
+        <g
+          data-name="U 2"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(682.99 492.47)">
+            <tspan x={0} y={2}>
+              {"U"}
+            </tspan>
+          </text>
+          <text transform="translate(684.35 507.72)">
+            <tspan x={0} y={-1}>
+              {"2"}
+            </tspan>
+          </text>
+        </g>
+      </g>
     </a>
     <a xlinkHref="/visningssted/AG20">
-    <g clipPath="url(#p)" data-name="H-AG20" id="AG20" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={931.3}
-        cy={195.15}
-        r={70}
-        fill="#4a769e"
-      />
-      <image
-        width={300}
-        height={200}
-        transform="matrix(.49 0 0 .49 854.82 125.15)"
-        xlinkHref="/img/AG22.jpg"
-      />
-    </g>
-    <circle
-      data-name="Ellipse 28-16"
-      cx={931.3}
-      cy={244.15}
-      r={21}
-      fill="#4a769e"
-    />
-    <g
-      data-name="AG 20"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(920.96 241.33)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0}>
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(923.86 257.09)">
-        <tspan x={0} y={0}>
-          {"20"}
-        </tspan>
-      </text>
-    </g>
+      <g className="kartPunkt">
+        <g clipPath="url(#p)" data-name="H-AG20" className="kartPunktHover">
+          <circle
+            data-name="Ellipse 28-15"
+            cx={931.3}
+            cy={195.15}
+            r={70}
+            fill="#4a769e"
+          />
+          <image
+            width={300}
+            height={200}
+            transform="matrix(.49 0 0 .49 854.82 125.15)"
+            xlinkHref="/img/AG22.jpg"
+          />
+        </g>
+        <circle
+          data-name="Ellipse 28-16"
+          cx={931.3}
+          cy={244.15}
+          r={21}
+          fill="#4a769e"
+        />
+        <g
+          data-name="AG 20"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(920.96 241.33)">
+            <tspan x={0} y={2} letterSpacing="-.02em">
+              {"AG"}
+            </tspan>
+          </text>
+          <text transform="translate(923.86 257.09)">
+            <tspan x={-1} y={-1}>
+              {"20"}
+            </tspan>
+          </text>
+        </g>
+      </g>
     </a>
-    <g clipPath="url(#q)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={635.34}
-        cy={491.14}
-        r={70}
-        fill="#009691"
-      />
-      <use transform="matrix(.49 0 0 .49 510.11 85.38)" xlinkHref="#d" />
-    </g>
     <a xlinkHref="/visningssted/U4">
-    <circle
-      data-name="Ellipse 28-23"
-      cx={635.87}
-      cy={540.47}
-      r={20.67}
-      fill="#009691"
-    />
-    <g
-      data-name="U 4"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(629.9 538.56)">
-        <tspan x={0} y={0}>
-          {"U"}
-        </tspan>
-      </text>
-      <text transform="translate(630.9 553.31)">
-        <tspan x={0} y={0}>
-          {"4"}
-        </tspan>
-      </text>
-    </g>
+      <g className="kartPunkt">
+        <g clipPath="url(#q)" className="kartPunktHover">
+          <circle
+            cx={635.34}
+            cy={491.14}
+            r={70}
+            fill="#009691"
+          />
+          <use transform="matrix(.49 0 0 .49 563.11 422.38)" xlinkHref="#d" />
+        </g>
+        <circle
+          cx={635.87}
+          cy={540.47}
+          r={20.67}
+          fill="#009691"
+        />
+        <g
+          data-name="U 4"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(629.9 538.56)">
+            <tspan x={0} y={-1}>
+              {"U"}
+            </tspan>
+          </text>
+          <text transform="translate(630.9 553.31)">
+            <tspan x={0} y={-2}>
+              {"4"}
+            </tspan>
+          </text>
+        </g>
+      </g>
     </a>
-    <g clipPath="url(#r)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={701.82}
-        cy={491.14}
-        r={70}
-        fill="#009691"
-      />
-      <use transform="matrix(.49 0 0 .49 510.11 85.38)" xlinkHref="#d" />
-    </g>
     <a xlinkHref="/visningssted/U5">
-    <circle
-      data-name="Ellipse 28-24"
-      cx={701.82}
-      cy={540.47}
-      r={20.67}
-      fill="#009691"
-    />
-    <g
-      data-name="U 5"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(696.55 537.66)">
-        <tspan x={0} y={0}>
-          {"U"}
-        </tspan>
-      </text>
-      <text transform="translate(698.35 550.31)">
-        <tspan x={0} y={0}>
-          {"5"}
-        </tspan>
-      </text>
-    </g>
+      <g className="kartPunkt">
+        <g clipPath="url(#r)" className="kartPunktHover">
+          <circle
+            cx={701.82}
+            cy={491.14}
+            r={70}
+            fill="#009691"
+          />
+          <use transform="matrix(.49 0 0 .49 629.11 421.5)" xlinkHref="#d" />
+        </g>
+        <circle
+          cx={701.82}
+          cy={540.47}
+          r={20.67}
+          fill="#009691"
+        />
+        <g
+          data-name="U 5"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(696.55 537.66)">
+            <tspan x={0} y={0}>
+              {"U"}
+            </tspan>
+          </text>
+          <text transform="translate(698.35 550.31)">
+            <tspan x={0} y={0}>
+              {"5"}
+            </tspan>
+          </text>
+        </g>
+      </g>
     </a>
-    <g clipPath="url(#s)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={583.59}
-        cy={155.38}
-        r={70}
-        fill="#c76433"
-      />
-      <use transform="matrix(.49 0 0 .49 510.11 85.38)" xlinkHref="#d" />
-    </g>
     <a xlinkHref="/visningssted/AG30">
-    <path
-      data-name="Path 308"
-      d="M583.59 183.38c11.6 0 21 9.4 21 21s-9.4 21-21 21-21-9.4-21-21 9.4-21 21-21Z"
-      fill="#c76433"
-    />
-    <g
-      data-name="AG 30"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(573.45 201.89)">
-        <tspan x={0} y={0} letterSpacing="-.02em">
-          {"A"}
-        </tspan>
-        <tspan x={9.84} y={0} letterSpacing="0em">
-          {"G"}
-        </tspan>
-      </text>
-      <text transform="translate(575.75 216.84)">
-        <tspan x={0} y={0}>
-          {"30"}
-        </tspan>
-      </text>
-    </g>
+      <g className="kartPunkt">
+        <g clipPath="url(#s)" className="kartPunktHover">
+          <circle
+            cx={583.59}
+            cy={155.38}
+            r={70}
+            fill="#c76433"
+          />
+          <use transform="matrix(.49 0 0 .49 510.11 85.38)" xlinkHref="#d" />
+        </g>
+        <path
+          data-name="Path 308"
+          d="M583.59 183.38c11.6 0 21 9.4 21 21s-9.4 21-21 21-21-9.4-21-21 9.4-21 21-21Z"
+          fill="#c76433"
+        />
+        <g
+          data-name="AG 30"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(573.45 201.89)">
+            <tspan x={0} y={0} letterSpacing="-.02em">
+              {"AG"}
+            </tspan>
+          </text>
+          <text transform="translate(575.75 216.84)">
+            <tspan x={0} y={-2}>
+              {"30"}
+            </tspan>
+          </text>
+        </g>
+      </g>
     </a>
-    <g clipPath="url(#t)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={242.97}
-        cy={134.51}
-        r={70}
-        fill="#c76433"
-      />
-      <use transform="matrix(.49 0 0 .49 169.49 64.51)" xlinkHref="#u" />
-    </g>
-    <a xlinkHref="/visningssted/AK40">
-    <path
-      data-name="Path 308-2"
-      d="M242.97 162.51c11.6 0 21 9.4 21 21s-9.4 21-21 21-21-9.4-21-21 9.4-21 21-21Z"
-      fill="#c76433"
-    />
-    <g
-      id="AK40"
-      data-name="AK 40"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(233.16 181.21)">
-        <tspan x={0} y={0}>
-          {"AK"}
-        </tspan>
-      </text>
-      <text transform="translate(235.32 196.27)">
-        <tspan x={0} y={0}>
-          {"40"}
-        </tspan>
-      </text>
-    </g>
+    <a xlinkHref="/visningssted/U3">
+      <g className="kartPunkt">
+        <g clipPath="url(#h)" className="kartPunktHover">
+          <circle
+            cx={649.65}
+            cy={536.42}
+            r={70}
+            fill="#cb9228"
+          />
+          <use transform="matrix(.49 0 0 .49 576.17 466.42)" xlinkHref="#g" />
+        </g>
+        <circle
+          cx={649.65}
+          cy={585.75}
+          r={20.67}
+          fill="#cb9228"
+        />
+        <g
+          data-name="U 3"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(644.28 583.34)">
+            <tspan x={0} y={1}>
+              {"U"}
+            </tspan>
+          </text>
+          <text transform="translate(645.88 596.09)">
+            <tspan x={0} y={0}>
+              {"3"}
+            </tspan>
+          </text>
+        </g>
+      </g>
     </a>
-    <g clipPath="url(#v)" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={698.11}
-        cy={559.07}
-        r={70}
-        fill="#c76433"
-      />
-      <use transform="matrix(.49 0 0 .49 624.64 489.07)" xlinkHref="#u" />
-    </g>
     <a xlinkHref="/visningssted/AK40">
-    <path
-      data-name="Path 308-3"
-      d="M698.11 587.72c11.42 0 20.67 9.26 20.67 20.67s-9.26 20.67-20.67 20.67-20.67-9.26-20.67-20.67 9.26-20.67 20.67-20.67Z"
-      fill="#c76433"
-    />
-    <g
-      data-name="AK 40-2"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(688.11 606.5)">
-        <tspan x={0} y={0}>
-          {"AK"}
-        </tspan>
-      </text>
-      <text transform="translate(690.27 620.95)">
-        <tspan x={0} y={0}>
-          {"40"}
-        </tspan>
-      </text>
-    </g>
+      <g className="kartPunkt">
+        <g clipPath="url(#w)" className="kartPunktHover">
+          <circle
+            cx={1219.75}
+            cy={219.07}
+            r={70}
+            fill="#c76433"
+          />
+          <use transform="matrix(.49 0 0 .49 1146.27 149.07)" xlinkHref="#u" />
+        </g>
+        <path
+          data-name="Path 308-4"
+          d="M1219.75 247.07c11.6 0 21 9.4 21 21s-9.4 21-21 21-21-9.4-21-21 9.4-21 21-21Z"
+          fill="#c76433"
+        />
+        <g
+          data-name="AK 40"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(1209.74 265.88)">
+            <tspan x={-1.5} y={0}>
+              {"AK"}
+            </tspan>
+          </text>
+          <text transform="translate(1212.1 280.23)">
+            <tspan x={-1} y={-2}>
+              {"40"}
+            </tspan>
+          </text>
+        </g>
+      </g>
     </a>
-    <g clipPath="url(#w)" data-name="H-40-2" className="hidden">
-      <circle
-        data-name="Ellipse 28-15"
-        cx={1219.75}
-        cy={219.07}
-        r={70}
-        fill="#c76433"
-      />
-      <use transform="matrix(.49 0 0 .49 1146.27 149.07)" xlinkHref="#u" />
-    </g>
     <a xlinkHref="/visningssted/AK40">
-    <path
-      data-name="Path 308-4"
-      d="M1219.75 247.07c11.6 0 21 9.4 21 21s-9.4 21-21 21-21-9.4-21-21 9.4-21 21-21Z"
-      fill="#c76433"
-    />
-    <g
-      data-name="AK 40"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(1209.74 265.88)">
-        <tspan x={0} y={0}>
-          {"AK"}
-        </tspan>
-      </text>
-      <text transform="translate(1212.1 280.23)">
-        <tspan x={0} y={0}>
-          {"40"}
-        </tspan>
-      </text>
-    </g>
+      <g className="kartPunkt">
+        <g clipPath="url(#v)" className="kartPunktHover">
+          <circle
+            cx={698.11}
+            cy={559.07}
+            r={70}
+            fill="#c76433"
+          />
+          <use transform="matrix(.49 0 0 .49 624.64 489.07)" xlinkHref="#u" />
+        </g>
+        <path
+          data-name="Path 308-3"
+          d="M698.11 587.72c11.42 0 20.67 9.26 20.67 20.67s-9.26 20.67-20.67 20.67-20.67-9.26-20.67-20.67 9.26-20.67 20.67-20.67Z"
+          fill="#c76433"
+        />
+        <g
+          data-name="AK 40-2"
+          fill="#fff"
+          fontFamily="Freight-Sans-Pro, sans-serif"
+          fontWeight={700}
+          fontSize={15.75}
+        >
+          <text transform="translate(688.11 606.5)">
+            <tspan x={-1} y={1}>
+              {"AK"}
+            </tspan>
+          </text>
+          <text transform="translate(690.27 620.95)">
+            <tspan x={-2} y={-1}>
+              {"40"}
+            </tspan>
+          </text>
+        </g>
+      </g>
     </a>
   </svg>
 )

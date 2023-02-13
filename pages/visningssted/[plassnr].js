@@ -5,7 +5,7 @@ function Visningssted({ post, result, media }) {
 
   return (
     <>
-      <div className="grid justify-center items-center w-full min-h-screen" 
+      <div className="grid justify-center items-center w-full min-h-screen hode" 
           style={{
           backgroundImage: `url(${result.hovedbilde})`,
           backgroundPosition: 'top center',
