@@ -49,7 +49,7 @@ export default function Home({ mainList, media }) {
           <h2 className='text-center pt-40'>
             Plassoversikt
           </h2>
-          <div className='grid justify-center items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 p-10 uppercase'>
+          <div className='grid justify-center items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 p-5 md:gap-10 md:p-10 uppercase'>
             {mainList.acf.flater.map(post => (
               <div key={post.plassnr} className="text-white backdrop-brightness-50 hover:backdrop-brightness-0 h-72 md:h-96 p-10 bottom-0">
                 <Link href={ '/visningssted/' + post.plassnr } key={post.plassnr}>

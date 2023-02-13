@@ -57,10 +57,10 @@ a {
   box-sizing: border-box;
 }
 
-#aki8:hover ~ #lines {
-  @apply hidden;
+#lines {
+  @apply opacity-100;
 }
 
-#aki9:hover ~ #lines {
-  @apply hidden;
+#aki8:hover ~ #lines {
+  @apply opacity-100;
 }

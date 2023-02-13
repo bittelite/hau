@@ -1115,32 +1115,32 @@ const KartHAU = (props) => (
       <path data-name="Line 46" d="m635.69 275.72 18.39 20.44" />
     </g>
     <a xlinkHref="/visningssted/AG-AKi-AKu">
-      <g id="aki8">
-    <circle
-      data-name="Ellipse 28"
-      cx={228.78}
-      cy={276.73}
-      r={21}
-      fill="#002649"
-    />
-    <g
-      data-name="AKi 8"
-      fill="#fff"
-      fontFamily="Freight-Sans-Pro, sans-serif"
-      fontWeight={700}
-      fontSize={15.75}
-    >
-      <text transform="translate(216.22 274.82)">
-        <tspan x={0} y={0}>
-          {"AKi"}
-        </tspan>
-      </text>
-      <text transform="translate(224.01 290.57)">
-        <tspan x={0} y={0}>
-          {"8"}
-        </tspan>
-      </text>
-    </g>
+    <g id="aki8">
+      <circle
+        data-name="Ellipse 28"
+        cx={228.78}
+        cy={276.73}
+        r={21}
+        fill="#002649"
+      />
+      <g
+        data-name="AKi 8"
+        fill="#fff"
+        fontFamily="Freight-Sans-Pro, sans-serif"
+        fontWeight={700}
+        fontSize={15.75}
+      >
+        <text transform="translate(216.22 274.82)">
+          <tspan x={0} y={0}>
+            {"AKi"}
+          </tspan>
+        </text>
+        <text transform="translate(224.01 290.57)">
+          <tspan x={0} y={0}>
+            {"8"}
+          </tspan>
+        </text>
+      </g>
     </g>
     <circle
       data-name="Ellipse 28-2"
@@ -1350,11 +1350,8 @@ const KartHAU = (props) => (
       fontSize={15.75}
     >
       <text transform="translate(940.71 579.39)">
-        <tspan x={0} y={0} letterSpacing="0em">
-          {"X"}
-        </tspan>
-        <tspan x={10.21} y={0} letterSpacing="0em">
-          {"X"}
+        <tspan x={-5} y={2} letterSpacing="0em">
+          {"AGu"}
         </tspan>
       </text>
       <text transform="translate(946.68 595.14)">

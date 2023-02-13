@@ -16,7 +16,7 @@ function Visningssted({ post, result, media }) {
         }}>
             <h1 className="text-white text-center">
             <span className=" text-6xl"></span><br />
-            <span className="text-8xl">{result.type}</span>
+            <span className="text-5xl md:text-8xl">{result.type}</span>
             </h1>
       </div>
       <div className="container mx-auto max-w-7xl">
