@@ -57,10 +57,20 @@ a {
   box-sizing: border-box;
 }
 
-#lines {
-  @apply opacity-100;
+.kartPunkt > .kartPunktHover {
+  @apply hidden;
 }
 
-#aki8:hover ~ #lines {
-  @apply opacity-100;
+.kartPunkt:hover > .kartPunktHover {
+  @apply grid z-10;
+}
+
+.card {
+  @apply text-white backdrop-brightness-50 hover:backdrop-brightness-0 h-72 md:h-96 p-10;
+}
+.cardLink {
+  @apply rounded-full bg-white text-black absolute bottom-10 right-10 w-9 h-9 p-3;
+}
+.card:hover .cardLink {
+  @apply w-10 h-10;
 }
