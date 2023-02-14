@@ -186,16 +186,64 @@ const KartHAU = (props) => (
         xlinkHref="/img/U2.jpg"
       />
       <image
-        id="u"
+        id="ak40"
         width={300}
         height={200}
-        xlinkHref="/img/traller.jpg"
+        xlinkHref="https://reklameservice.no/wp-content/uploads/2022/10/AK40-scaled.jpg"
       />
       <image
         id="d"
         width={300}
         height={200}
         xlinkHref="/img/dummie.jpg"
+      />
+      <image
+        id="ag30"
+        width={300}
+        height={200}
+        xlinkHref="https://reklameservice.no/wp-content/uploads/2022/10/AG30-scaled.jpg"
+      />
+      <image
+        id="u3"
+        width={300}
+        height={200}
+        xlinkHref="https://reklameservice.no/wp-content/uploads/2022/10/HAU_U3.jpg"
+      />
+      <image
+        id="u4"
+        width={300}
+        height={200}
+        xlinkHref="https://reklameservice.no/wp-content/uploads/2022/10/HAU_U4_v2-scaled.jpg"
+      />
+      <image
+        id="u5"
+        width={300}
+        height={200}
+        xlinkHref="https://reklameservice.no/wp-content/uploads/2022/10/HAU_U5-1-scaled.jpg"
+      />
+      <image
+        id="u6"
+        width={300}
+        height={190}
+        xlinkHref="https://reklameservice.no/wp-content/uploads/2022/10/HAU_U6-1-scaled.jpg"
+      />
+      <image
+        id="aki1"
+        width={320}
+        height={220}
+        xlinkHref="https://reklameservice.no/wp-content/uploads/2022/10/HAU_AKI1_AKI2_v2-scaled.jpg"
+      />
+      <image
+        id="aki2"
+        width={300}
+        height={200}
+        xlinkHref="https://reklameservice.no/wp-content/uploads/2022/10/HAU_AKI1_AKI2-scaled.jpg"
+      />
+      <image
+        id="aki4"
+        width={335}
+        height={210}
+        xlinkHref="https://reklameservice.no/wp-content/uploads/2022/10/HAU-AKI4.jpeg"
       />
     </defs>
     <g clipPath="url(#a)" data-name="1ETG">
@@ -1458,7 +1506,7 @@ const KartHAU = (props) => (
             r={70}
             fill="#c76433"
           />
-          <use transform="matrix(.49 0 0 .49 169.49 64.51)" xlinkHref="#u" />
+          <use transform="matrix(.49 0 0 .49 169.49 64.51)" xlinkHref="#ak40" />
         </g>
         <path
           data-name="Path 308-2"
@@ -1495,7 +1543,7 @@ const KartHAU = (props) => (
             r={70}
             fill="#cb9228"
           />
-          <use transform="matrix(.49 0 0 .49 105 87.5)" xlinkHref="#d" />
+          <use transform="matrix(.49 0 0 .49 105 77.5)" xlinkHref="#aki1" />
         </g>
         <circle
           cx={180.36}
@@ -1532,7 +1580,7 @@ const KartHAU = (props) => (
             r={70}
             fill="#cb9228"
           />
-          <use transform="matrix(.49 0 0 .49 140 115)" xlinkHref="#d" />
+          <use transform="matrix(.49 0 0 .49 140 115)" xlinkHref="#aki2" />
         </g>
         <g
           data-name="AKi 2"
@@ -1653,7 +1701,7 @@ const KartHAU = (props) => (
             r={70}
             fill="#a36a78"
           />
-          <use transform="matrix(.49 0 0 .49 20.88 294)" xlinkHref="#d" />
+          <use transform="matrix(.49 0 0 .49 20.88 294)" xlinkHref="#u6" />
         </g>
         <circle
           cx={93.53}
@@ -1690,7 +1738,7 @@ const KartHAU = (props) => (
             r={70}
             fill="#a36a78"
           />
-          <use transform="matrix(.49 0 0 .49 200 187)" xlinkHref="#d" />
+          <use transform="matrix(.49 0 0 .49 195.5 182)" xlinkHref="#aki4" />
         </g>
         <circle
           cx={277.52}
@@ -1934,7 +1982,7 @@ const KartHAU = (props) => (
             r={70}
             fill="#009691"
           />
-          <use transform="matrix(.49 0 0 .49 563.11 422.38)" xlinkHref="#d" />
+          <use transform="matrix(.49 0 0 .49 563.11 422.38)" xlinkHref="#u4" />
         </g>
         <circle
           cx={635.87}
@@ -1971,7 +2019,7 @@ const KartHAU = (props) => (
             r={70}
             fill="#009691"
           />
-          <use transform="matrix(.49 0 0 .49 629.11 421.5)" xlinkHref="#d" />
+          <use transform="matrix(.49 0 0 .49 629.11 421.5)" xlinkHref="#u5" />
         </g>
         <circle
           cx={701.82}
@@ -2008,7 +2056,7 @@ const KartHAU = (props) => (
             r={70}
             fill="#c76433"
           />
-          <use transform="matrix(.49 0 0 .49 510.11 85.38)" xlinkHref="#d" />
+          <use transform="matrix(.49 0 0 .49 510.11 85.38)" xlinkHref="#ag30" />
         </g>
         <path
           data-name="Path 308"
@@ -2044,7 +2092,7 @@ const KartHAU = (props) => (
             r={70}
             fill="#cb9228"
           />
-          <use transform="matrix(.49 0 0 .49 576.17 466.42)" xlinkHref="#g" />
+          <use transform="matrix(.49 0 0 .49 576.17 466.42)" xlinkHref="#u3" />
         </g>
         <circle
           cx={649.65}
@@ -2081,7 +2129,7 @@ const KartHAU = (props) => (
             r={70}
             fill="#c76433"
           />
-          <use transform="matrix(.49 0 0 .49 1146.27 149.07)" xlinkHref="#u" />
+          <use transform="matrix(.49 0 0 .49 1146.27 149.07)" xlinkHref="#ak40" />
         </g>
         <path
           data-name="Path 308-4"
@@ -2117,7 +2165,7 @@ const KartHAU = (props) => (
             r={70}
             fill="#c76433"
           />
-          <use transform="matrix(.49 0 0 .49 624.64 489.07)" xlinkHref="#u" />
+          <use transform="matrix(.49 0 0 .49 624.64 489.07)" xlinkHref="#ak40" />
         </g>
         <path
           data-name="Path 308-3"
