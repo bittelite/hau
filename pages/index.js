@@ -46,10 +46,13 @@ export default function Home({ mainList, media }) {
           <KartHAU />
         </div>
         <div className='grid'>
-          <h2 className='text-center pt-40'>
+          <div className='xl:text-4xl xl:leading-snug text-2xl leading-snug mt-40 font-medium p-10 order-3 xl:order-1'
+            dangerouslySetInnerHTML={{__html: mainList.acf.beskrivelse.tekst}}>
+          </div>
+          <h2 className='text-center pt-40 order-1 xl:order-2'>
             Plassoversikt
           </h2>
-          <div className='grid justify-center items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 p-5 md:gap-10 md:p-10 uppercase'>
+          <div className='grid order-2 xl:order-3 justify-center items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 p-5 md:gap-10 md:p-10 uppercase'>
             {mainList.acf.flater.map(post => (
               <div key={post.plassnr} className="card">
                 <Link href={ '/visningssted/' + post.plassnr } key={post.plassnr}>
@@ -71,6 +74,14 @@ export default function Home({ mainList, media }) {
               </div>
               ))}
             </div>
+            
+        </div>
+        <div className="grid grid-flow-col justify-center items-center py-32">
+            <Link href="/kontakt">
+            <div className="w-64 rounded-full bg-black text-white hover:bg-white hover:text-black uppercase p-5 text-center text-xl">
+              Kontakt oss for annonsering
+            </div>
+            </Link>
         </div>
       </div>
     </>

@@ -44,7 +44,6 @@ function Visningssted({ post, result, media }) {
             </div>
             </Link>
           </div>
-          <div className="text-center hidden">Plass flere bilder og tekst om reklametype</div>
         </div>
         </div>
       </div>
