@@ -31,7 +31,7 @@ export default function Kontakt({ }) {
                 </p>
             </div>
             <div className="grid gap-5">
-                <div className="bg-blue-200 max-h-96">
+                <div className="bg-blue-200 h-auto">
                   <Image src={'https://reklameservice.no/wp-content/uploads/2022/11/Tone-Eidseter-scaled.jpg'} width={500} height={500} className="relative object-contain"/>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-500">
@@ -46,7 +46,7 @@ export default function Kontakt({ }) {
                 </p>
             </div> 
             <div className="grid gap-5">
-                <div className="bg-blue-200 max-h-96">
+                <div className="bg-blue-200 h-auto">
                   <Image src={'https://reklameservice.no/wp-content/uploads/2022/11/Harald-scaled.jpg'} width={500} height={500} className="relative object-contain"/>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-500">
@@ -59,7 +59,52 @@ export default function Kontakt({ }) {
                   Telefon: +47 901 14 805<br />
                   E-post: harald@reklameservice.no
                 </p>
-            </div> 
+            </div>
+            <div className="grid gap-5">
+                <div className="bg-blue-200 h-auto">
+                  <Image src={'https://reklameservice.no/wp-content/uploads/2022/11/Lars-Fredly-scaled.jpg'} width={500} height={500} className="relative object-contain"/>
+                </div>
+                <h3 className="text-lg font-semibold text-slate-500">
+                  Lars Fredly<br />
+                  <span className="text-sm font-medium text-slate-700">
+                  Markeds- og utvikingssjef
+                  </span>
+                </h3>
+                <p className="text-sm font-medium text-slate-700">  
+                  Telefon: +47 975 41 354<br />
+                  E-post: larsf@reklameservice.no
+                </p>
+            </div>
+            <div className="grid gap-5">
+                <div className="bg-blue-200 h-auto">
+                  <Image src={'https://reklameservice.no/wp-content/uploads/2022/11/Martin-Skorgen-scaled.jpg'} width={500} height={500} className="relative object-contain"/>
+                </div>
+                <h3 className="text-lg font-semibold text-slate-500">
+                  Martin Skorgen<br />
+                  <span className="text-sm font-medium text-slate-700">
+                  Mediegrafiker
+                  </span>
+                </h3>
+                <p className="text-sm font-medium text-slate-700">  
+                  Telefon: +47 988 05 958<br />
+                  E-post: martin@reklameservice.no
+                </p>
+            </div>
+            <div className="grid gap-5">
+                <div className="bg-blue-200 h-auto">
+                  <Image src={'https://reklameservice.no/wp-content/uploads/2022/12/IMG_9668.jpg'} width={500} height={500} className="relative object-contain"/>
+                </div>
+                <h3 className="text-lg font-semibold text-slate-500">
+                  Fredrik Fredly<br />
+                  <span className="text-sm font-medium text-slate-700">
+                  IT-sjef
+                  </span>
+                </h3>
+                <p className="text-sm font-medium text-slate-700">  
+                  Telefon: +47 412 72 574<br />
+                  E-post: fredrik@reklameservice.no
+                </p>
+            </div>
           </div>
           <div className="grid grid-flow-col justify-center items-center py-40">
             <Link href="/">
