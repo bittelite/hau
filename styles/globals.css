@@ -62,7 +62,7 @@ a {
 }
 
 .kartPunkt:hover > .kartPunktHover {
-  @apply grid z-10;
+  @apply grid;
 }
 
 .card {
