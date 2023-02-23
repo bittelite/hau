@@ -35,7 +35,7 @@ export default function Home({ mainList, media }) {
       </div>
       <div className='wrapper'>
         <div>
-          <p className='ingress px-10 xl:px-0 pt-28 sm:py-20 lg:py-40'>
+          <p className='ingress px-5 xl:px-0 pt-28 sm:py-20 lg:py-40'>
             {mainList.acf.beskrivelse.ingress}
           </p>
         </div>
@@ -46,7 +46,7 @@ export default function Home({ mainList, media }) {
           <KartHAU />
         </div>
         <div className='grid'>
-          <div className='xl:text-4xl xl:leading-snug text-2xl leading-snug mt-40 font-medium p-10 order-3 xl:order-1'
+          <div className='xl:text-4xl xl:leading-snug text-2xl leading-snug mt-40 font-medium p-5 order-3 xl:order-1'
             dangerouslySetInnerHTML={{__html: mainList.acf.beskrivelse.tekst}}>
           </div>
           <h2 className='text-center pt-40 order-1 xl:order-2'>
