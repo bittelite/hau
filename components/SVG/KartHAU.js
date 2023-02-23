@@ -1534,7 +1534,7 @@ const KartHAU = (props) => (
         </g>
       </g>
     </a>
-    <a xlinkHref="/visningssted/AKi1">
+    <a xlinkHref="/visningssted/AKi1-AKi2">
       <g className="kartPunkt">
         <g clipPath="url(#e)" className="kartPunktHover">
           <circle
@@ -1571,7 +1571,7 @@ const KartHAU = (props) => (
         </g>
       </g>
     </a>
-    <a xlinkHref="/visningssted/AKi2">
+    <a xlinkHref="/visningssted/AKi1-AKi2">
       <g className="kartPunkt">
         <g clipPath="url(#c)" className="kartPunktHover">
           <circle
@@ -1892,7 +1892,7 @@ const KartHAU = (props) => (
         </g>
       </g>
     </a>
-    <a xlinkHref="/visningssted/U2">
+    <a xlinkHref="/visningssted/U2-U3">
       <g className="kartPunkt">
         <g clipPath="url(#f)" className="kartPunktHover">
           <circle
@@ -1973,7 +1973,7 @@ const KartHAU = (props) => (
         </g>
       </g>
     </a>
-    <a xlinkHref="/visningssted/U4">
+    <a xlinkHref="/visningssted/U4-U5">
       <g className="kartPunkt">
         <g clipPath="url(#q)" className="kartPunktHover">
           <circle
@@ -2010,7 +2010,7 @@ const KartHAU = (props) => (
         </g>
       </g>
     </a>
-    <a xlinkHref="/visningssted/U5">
+    <a xlinkHref="/visningssted/U4-U5">
       <g className="kartPunkt">
         <g clipPath="url(#r)" className="kartPunktHover">
           <circle
@@ -2083,7 +2083,7 @@ const KartHAU = (props) => (
         </g>
       </g>
     </a>
-    <a xlinkHref="/visningssted/U3">
+    <a xlinkHref="/visningssted/U2-U3">
       <g className="kartPunkt">
         <g clipPath="url(#h)" className="kartPunktHover">
           <circle
