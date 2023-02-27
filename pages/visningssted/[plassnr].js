@@ -33,14 +33,14 @@ function Visningssted({ post, result, media }) {
             Område:<br />  {result.plassering}
             </div>
             <div className="text-white bg-blue-800 h-32 p-10 bottom-0">
-            Format:<br />  {result.format}
+            Format:<br /> <span className="lowercase">{result.format}</span>
             </div>
           </div>
           <Image src={result.hovedbilde} width={1300} height={800} className="w-full py-40"/>
           <div className="grid grid-flow-col justify-center items-center py-32">
             <Link href="/kontakt">
             <div className="w-64 rounded-full bg-black text-white hover:bg-white hover:text-black uppercase p-5 text-center text-xl">
-              Kontakt oss for annonsering
+              Kontakt oss
             </div>
             </Link>
           </div>

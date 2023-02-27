@@ -41,7 +41,7 @@ export default function Home({ mainList, media }) {
         </div>
         <div className='xl:grid justify-center items-center w-full hidden'>
           <h2 className='text-center pb-10'>
-            Kart
+            Dekningskart
           </h2>
           <KartHAU />
         </div>
@@ -61,7 +61,7 @@ export default function Home({ mainList, media }) {
                   </div>
                   <div className="flex absolute bottom-10">
                     <h3 className="flex-auto text-lg">
-                    {post.type}:<br/>{post.plassering}
+                    {post.type}<br/>{post.plassering}
                     </h3>
                   </div>
                   <div className="text-lg absolute top-10 right-10">
@@ -79,7 +79,7 @@ export default function Home({ mainList, media }) {
         <div className="grid grid-flow-col justify-center items-center py-32">
             <Link href="/kontakt">
             <div className="w-64 rounded-full bg-black text-white hover:bg-white hover:text-black uppercase p-5 text-center text-xl">
-              Kontakt oss for annonsering
+              Kontakt oss
             </div>
             </Link>
         </div>

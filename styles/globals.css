@@ -45,7 +45,7 @@ main {
   @apply w-full justify-center items-center;
 }
 .footer {
-  @apply text-white grid justify-center items-center gap-10 mt-20 p-10 text-center text-sm; 
+  @apply text-white grid justify-center items-center gap-10 mt-20 p-10 text-center; 
   background-color: #191919;
 }
 
