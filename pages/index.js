@@ -56,9 +56,7 @@ export default function Home({ mainList, media }) {
             {mainList.acf.flater.map(post => (
               <div key={post.plassnr} className="card">
                 <Link href={ '/visningssted/' + post.plassnr } key={post.plassnr}>
-                  <div>
-                    <Image src={post.hovedbilde} fill className="object-cover brightness-50 hover:brightness-100"/>
-                  </div>
+                  <Image src={post.hovedbilde} fill className="object-cover brightness-50 hover:brightness-100"/>
                   <div className="flex absolute bottom-10">
                     <h3 className="flex-auto text-lg">
                     {post.type}<br/>{post.plassering}

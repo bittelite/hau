@@ -256,6 +256,7 @@ const KartHAU = (props) => (
     <g clipPath="url(#a)" data-name="bakgrunnskart">
       <use transform="matrix(1 0 0 1 6 34.5)" xlinkHref="#bgkart" />
     </g>
+{/* TEKST 1. ETG */}
     <g clipPath="url(#a)" data-name="1ETG">
       <g data-name="Mask Group 1">
         <g data-name="hau-1.etg">
@@ -330,7 +331,7 @@ const KartHAU = (props) => (
         </tspan>
       </text>
     </g>
-{/* TEKST */}
+{/* TEKST 2. ETG */}
     <g data-name="2ETG">
       <path d="M914.87 434.15h98.8v42.43h-98.8z" />
       <text

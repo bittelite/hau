@@ -107,7 +107,6 @@ export default function Kontakt({ }) {
             </div>
           </div>
           <div className="grid grid-flow-row md:grid-flow-col justify-center items-center py-40 gap-5">
-
             <Link href="https://reklameservice.no/kontakt-oss/">
             <div className="w-72 rounded-full border-2 border-black text-black hover:bg-black hover:text-white uppercase p-5 text-center text-xl">
               Alle kontaktpersoner
