@@ -57,12 +57,12 @@ export default function Home({ mainList, media }) {
               <div key={post.plassnr} className="card">
                 <Link href={ '/visningssted/' + post.plassnr } key={post.plassnr}>
                   <Image src={post.hovedbilde} fill className="object-cover brightness-50 hover:brightness-100"/>
-                  <div className="absolute bottom-10 left-10">
+                  <div className="absolute bottom-5 left-5 lg:bottom-10 lg:left-10">
                     <h3 className="text-lg">
                     {post.type}<br/>{post.plassering}
                     </h3>
                   </div>
-                  <div className="text-lg absolute top-10 right-10">
+                  <div className="text-lg absolute top-5 right-5 lg:top-10 lg:right-10">
                     {post.plassnr}
                   </div>
                   <div className="cardLink">
