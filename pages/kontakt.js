@@ -106,9 +106,15 @@ export default function Kontakt({ }) {
                 </p>
             </div>
           </div>
-          <div className="grid grid-flow-col justify-center items-center py-40">
+          <div className="grid grid-flow-row md:grid-flow-col justify-center items-center py-40 gap-5">
+
+            <Link href="https://reklameservice.no/kontakt-oss/">
+            <div className="w-72 rounded-full border-2 border-black text-black hover:bg-black hover:text-white uppercase p-5 text-center text-xl">
+              Alle kontaktpersoner
+            </div>
+            </Link>
             <Link href="/">
-            <div className="w-48 rounded-full bg-black text-white hover:bg-white hover:text-black uppercase p-5 text-center text-xl">
+            <div className="w-72 rounded-full bg-black border-2 border-black text-white hover:bg-white hover:text-black uppercase p-5 text-center text-xl">
               Se mulighetene
             </div>
             </Link>
