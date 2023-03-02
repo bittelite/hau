@@ -187,9 +187,9 @@ const KartHAU = (props) => (
       />
       <image
         id="g"
-        width={1301}
+        width={300}
         height={200}
-        xlinkHref="/img/U2.jpg"
+        xlinkHref="/img/U2.jpg\"
       />
       <image
         id="ak40"
