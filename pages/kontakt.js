@@ -86,8 +86,8 @@ export default function Kontakt({ }) {
                   </span>
                 </h3>
                 <p className="text-sm font-medium text-slate-700">  
-                  Telefon: +47 988 05 958<br />
-                  E-post: martin@reklameservice.no
+                  Telefon: +47 966 79 862<br />
+                  E-post: zsolt@reklameservice.no
                 </p>
             </div>
             <div className="grid gap-5">
