@@ -77,12 +77,12 @@ export default function Kontakt({ }) {
             </div>
             <div className="grid gap-5">
                 <div className="bg-blue-200 h-auto">
-                  <Image src={'https://reklameservice.no/wp-content/uploads/2022/11/Martin-Skorgen-scaled.jpg'} width={500} height={500} className="relative object-contain"/>
+                  <Image src={'https://reklameservice.no/wp-content/uploads/2022/11/Zsolt-Veres-scaled.jpg'} width={500} height={500} className="relative object-contain"/>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-500">
-                  Martin Skorgen<br />
+                  Zsolt Veres<br />
                   <span className="text-sm font-medium text-slate-700">
-                  mediegrafiker
+                  IT-tekniker
                   </span>
                 </h3>
                 <p className="text-sm font-medium text-slate-700">  
